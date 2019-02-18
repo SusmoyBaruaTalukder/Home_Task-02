@@ -1,0 +1,45 @@
+/* CSS text with border color */
+
+#red{
+	color:red;
+	border-style:solid;
+	border-color:red;
+	border-width:5px;
+}
+
+#blue{
+	color:blue;
+	border-style:dotted;
+	border-color:blue;
+	border-width:2px;
+}
+#round_border
+{
+	border: 2px solid green;
+	border-radius: 50px
+}
+#mixed
+{
+	background-color: lightgrey;
+	border-style: dotted solid double ridge;
+	border-color: red green blue yellow;
+}
+#picture
+{
+	background-color: lightblue;
+}
+#video
+{
+	background-color: lightblue;
+}
+
+/* CSS Backgrounds */
+
+#body_background
+{
+	background-image: url(https://images.pexels.com/photos/291732/pexels-photo-291732.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+ 	/*background-size: 1550px 750px;*/
+ 	background-repeat: no-repeat;
+  	background-position: center;
+  	background-attachment: fixed;
+}
